@@ -1,0 +1,94 @@
+@import './function.scss';
+/*================== 共用間距設定(padding & margin) ==================*/
+$spacingList: (10, 20, 30, 40, 50);
+@mixin addSpacing($name, $margin_name, $isMobile: false) {
+    @each $size in $spacingList {
+        @at-root &#{$name}-#{index($spacingList, $size)}{
+            #{$margin_name}: if(not $isMobile, $size*1px, wh($size)) !important;
+        }
+    }
+}
+
+.ob{
+    // ob-container 容器間距
+    &-container{
+        margin: 0 30px;
+    }
+
+    /*
+        ======== 文字對齊 ========
+        .ob-align-left
+        .ob-align-center
+        .ob-align-rigth
+    */
+    &-align{
+        &-right {
+            text-align: right;
+        }
+        &-center {
+            text-align: center;
+        }
+        &-left {
+            text-align: left;
+        }
+    }
+
+    /*================ PC margin and padding =================*/
+    &-m{
+        /**
+            .ob-m-1~5
+            .ob-mt-1~5
+            依此類推
+        */
+        @include addSpacing('', 'margin');
+        @include addSpacing('t', 'margin-top');
+        @include addSpacing('r', 'margin-right');
+        @include addSpacing('b', 'margin-bottom');
+        @include addSpacing('l', 'margin-left');
+    }
+
+    &-p{
+        /**
+            .ob-p-1~5
+            .ob-pt-1~5
+            依此類推
+        */
+        @include addSpacing('', 'padding');
+        @include addSpacing('t', 'padding-top');
+        @include addSpacing('r', 'padding-right');
+        @include addSpacing('b', 'padding-bottom');
+        @include addSpacing('l', 'padding-left');
+    }
+
+    /*================ Mobile margin and padding =================*/
+    &-m-m{
+        /**
+            .ob-m-m-1~5
+            .ob-m-mt-1~5
+            依此類推
+        */
+        @include addSpacing('', 'margin', true);
+        @include addSpacing('t', 'margin-top', true);
+        @include addSpacing('r', 'margin-right', true);
+        @include addSpacing('b', 'margin-bottom', true);
+        @include addSpacing('l', 'margin-left', true);
+    }
+    &-m-p{
+        /**
+            .ob-m-p-1~5
+            .ob-m-pt-1~5
+            依此類推
+        */
+        @include addSpacing('', 'margin', true);
+        @include addSpacing('t', 'margin-top', true);
+        @include addSpacing('r', 'margin-right', true);
+        @include addSpacing('b', 'margin-bottom', true);
+        @include addSpacing('l', 'margin-left', true);
+    }
+
+    // ob-clearfix 清除浮動
+    &-clearfix{
+        clear: both;
+    }
+    
+}

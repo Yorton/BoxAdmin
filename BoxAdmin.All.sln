@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{BE52A7F9-E1E9-4595-AC38-FF6130BF9565}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6BACC61E-BD13-4643-B668-6DD40ACB7602}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A30EB08A-9551-4AC8-84AE-4329DE4F5383}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoxAdmin.Api", "BoxAdmin.Api\BoxAdmin.Api.csproj", "{E29FA215-89CE-4A7C-86B3-85A9C27C54E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoxAdmin.Infrastructure", "BoxAdmin.Infrastructure\BoxAdmin.Infrastructure.csproj", "{ED179BDC-40E8-44CC-A7B2-025082471A4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoxAdmin.Domain", "BoxAdmin.Domain\BoxAdmin.Domain.csproj", "{964AA3C8-A28F-4E62-A661-3EBEB731EAB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoxAdmin.Application", "BoxAdmin.Application\BoxAdmin.Application.csproj", "{C4CB8919-0210-4370-85B2-51BE2D0311B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{166E346A-3F1C-4FC6-B660-6AAE4CB405F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoxAdmin.Infrastructure.Shared", "BoxAdmin.Infrastructure.Shared\BoxAdmin.Infrastructure.Shared.csproj", "{965A9863-9A73-40EC-AD43-5C5AD4497348}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{E2946044-949A-448E-95BD-80C078C2DB20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoxAdmin.Framework", "BoxAdmin.Framework\BoxAdmin.Framework.csproj", "{6BC186F8-2E19-439D-AE37-803479BF3C03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Doc", "_Doc", "{A24FE780-8033-43CD-BFC9-8B8A965A3D42}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Misc", "_Misc", "{85E220D8-4A19-45BB-9308-A22F9C37DEBF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntitiesCreator", "EntitiesCreator\EntitiesCreator.csproj", "{66123762-45E3-40AD-B565-53B408E8D2D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoxAdmin.Application.Test", "BoxAdmin.Application.Test\BoxAdmin.Application.Test.csproj", "{51C1E8B2-7127-4275-828E-F896A71766C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxAdmin.Infrastructure.Test", "BoxAdmin.Infrastructure.Test\BoxAdmin.Infrastructure.Test.csproj", "{9B21B4AA-5C39-4D35-8632-1BBA8AF7116B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E29FA215-89CE-4A7C-86B3-85A9C27C54E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E29FA215-89CE-4A7C-86B3-85A9C27C54E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E29FA215-89CE-4A7C-86B3-85A9C27C54E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E29FA215-89CE-4A7C-86B3-85A9C27C54E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED179BDC-40E8-44CC-A7B2-025082471A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED179BDC-40E8-44CC-A7B2-025082471A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED179BDC-40E8-44CC-A7B2-025082471A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED179BDC-40E8-44CC-A7B2-025082471A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{964AA3C8-A28F-4E62-A661-3EBEB731EAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{964AA3C8-A28F-4E62-A661-3EBEB731EAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{964AA3C8-A28F-4E62-A661-3EBEB731EAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{964AA3C8-A28F-4E62-A661-3EBEB731EAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4CB8919-0210-4370-85B2-51BE2D0311B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4CB8919-0210-4370-85B2-51BE2D0311B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4CB8919-0210-4370-85B2-51BE2D0311B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4CB8919-0210-4370-85B2-51BE2D0311B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{965A9863-9A73-40EC-AD43-5C5AD4497348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{965A9863-9A73-40EC-AD43-5C5AD4497348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{965A9863-9A73-40EC-AD43-5C5AD4497348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{965A9863-9A73-40EC-AD43-5C5AD4497348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BC186F8-2E19-439D-AE37-803479BF3C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC186F8-2E19-439D-AE37-803479BF3C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC186F8-2E19-439D-AE37-803479BF3C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC186F8-2E19-439D-AE37-803479BF3C03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66123762-45E3-40AD-B565-53B408E8D2D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66123762-45E3-40AD-B565-53B408E8D2D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66123762-45E3-40AD-B565-53B408E8D2D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66123762-45E3-40AD-B565-53B408E8D2D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51C1E8B2-7127-4275-828E-F896A71766C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C1E8B2-7127-4275-828E-F896A71766C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C1E8B2-7127-4275-828E-F896A71766C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C1E8B2-7127-4275-828E-F896A71766C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B21B4AA-5C39-4D35-8632-1BBA8AF7116B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B21B4AA-5C39-4D35-8632-1BBA8AF7116B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B21B4AA-5C39-4D35-8632-1BBA8AF7116B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B21B4AA-5C39-4D35-8632-1BBA8AF7116B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E29FA215-89CE-4A7C-86B3-85A9C27C54E9} = {BE52A7F9-E1E9-4595-AC38-FF6130BF9565}
+		{ED179BDC-40E8-44CC-A7B2-025082471A4E} = {A30EB08A-9551-4AC8-84AE-4329DE4F5383}
+		{964AA3C8-A28F-4E62-A661-3EBEB731EAB8} = {6BACC61E-BD13-4643-B668-6DD40ACB7602}
+		{C4CB8919-0210-4370-85B2-51BE2D0311B8} = {6BACC61E-BD13-4643-B668-6DD40ACB7602}
+		{965A9863-9A73-40EC-AD43-5C5AD4497348} = {A30EB08A-9551-4AC8-84AE-4329DE4F5383}
+		{6BC186F8-2E19-439D-AE37-803479BF3C03} = {E2946044-949A-448E-95BD-80C078C2DB20}
+		{66123762-45E3-40AD-B565-53B408E8D2D7} = {85E220D8-4A19-45BB-9308-A22F9C37DEBF}
+		{51C1E8B2-7127-4275-828E-F896A71766C4} = {166E346A-3F1C-4FC6-B660-6AAE4CB405F3}
+		{9B21B4AA-5C39-4D35-8632-1BBA8AF7116B} = {166E346A-3F1C-4FC6-B660-6AAE4CB405F3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DCB0C02-F118-4DE3-982F-FDF8E381845F}
+	EndGlobalSection
+EndGlobal
